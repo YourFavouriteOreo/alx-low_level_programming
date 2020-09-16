@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-    char preText[] = "Size of a";
-    printf("%s %s: %d byte(s)\n",preText,"char",sizeof(char));
-    printf("%s %s: %d byte(s)\n",preText,"int",sizeof(int));
-    printf("%s %s: %d byte(s)\n",preText,"long int",sizeof(long int));
-    printf("%s %s: %d byte(s)\n",preText,"long long int",sizeof(long long int));
-    printf("%s %s: %d byte(s)\n",preText,"float",sizeof(float));
-    return (0);
+	char preTex[] = "Size of a";
+
+	printf("%s %s: %d byte(s)\n", preTex, "char", sizeof(char));
+	printf("%s %s: %d byte(s)\n", preTex, "int", sizeof(int));
+	printf("%s %s: %d byte(s)\n", preTex, "long int", sizeof(long int));
+	printf("%s %s: %d byte(s)\n", preTex, "long long int", sizeof(long long int));
+	printf("%s %s: %d byte(s)\n", preTex, "float", sizeof(float));
+	return (0);
 }

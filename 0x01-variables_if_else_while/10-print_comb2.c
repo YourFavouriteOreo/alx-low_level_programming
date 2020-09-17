@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -9,7 +7,7 @@
  */
 int main(void)
 {
-	int  characterX;
+	int characterX;
 	int characterY;
 
 	for (characterX = 0 ; characterX <= 9 ; characterX++)
@@ -18,8 +16,15 @@ int main(void)
 		{
 			putchar(characterX + '0');
 			putchar(characterY + '0');
-			putchar(',');
-			putchar(' ');
+			if (characterX == 9 && characterY == 9)
+			{
+			break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');

@@ -18,16 +18,10 @@ int main(void)
 		{
 			putchar(characterX + '0');
 			putchar(characterY + '0');
-			if (characterX == 9 && characterY == 9)
-			{
-				putchar('\n');
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }

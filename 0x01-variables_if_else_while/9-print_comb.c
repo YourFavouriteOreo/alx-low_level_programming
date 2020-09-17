@@ -13,7 +13,7 @@ int main(void)
 
 	for (integer = 0 ; integer <= 9 ; integer++)
 	{
-		putchar(integer+'0');
+		putchar(integer + '0');
 		if (integer != 9)
 		{
 			putchar(',');

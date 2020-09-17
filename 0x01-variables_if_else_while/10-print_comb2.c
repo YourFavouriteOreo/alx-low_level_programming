@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point for writing all numbers between 0 and 100, incl 0
+ * main - Entry point for writing all numbers between 0 and 100,
  *
  * Return: Always 0 (Success)
  */

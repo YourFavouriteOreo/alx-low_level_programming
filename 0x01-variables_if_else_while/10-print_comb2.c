@@ -10,9 +10,9 @@ int main(void)
 	int characterX;
 	int characterY;
 
-	for (characterX = 0 ; characterX <= 9 ; characterX++)
+	for (characterX = 0; characterX <= 9; characterX++)
 	{
-		for (characterY = 0 ; characterY <= 9 ; characterY++)
+		for (characterY = 0; characterY <= 9; characterY++)
 		{
 			putchar(characterX + '0');
 			putchar(characterY + '0');

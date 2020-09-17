@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-	char characterX;
-	char characterY;
+	int  characterX;
+	int characterY;
 
-	for (characterX = '0' ; characterX <= '9' ; characterX++)
+	for (characterX = 0 ; characterX <= 9 ; characterX++)
 	{
-		for (characterY = '0' ; characterY <= '9' ; characterY++)
+		for (characterY = 0 ; characterY <= 9 ; characterY++)
 		{
 			putchar(characterX + '0');
 			putchar(characterY + '0');
-			if (characterX == '9' && characterY == '9')
+			if (characterX == 9 && characterY == 9)
 			{
 				putchar('\n');
 			}

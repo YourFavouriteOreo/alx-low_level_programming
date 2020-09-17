@@ -16,12 +16,14 @@ int main(void)
 	{
 		for (characterY = '0' ; characterY <= '9' ; characterY++)
 		{
-			putchar(characterX);
-			putchar(characterY);
-			if (characterX == '9' && characterY == '9'){
+			putchar(characterX + '0');
+			putchar(characterY + '0');
+			if (characterX == '9' && characterY == '9')
+			{
 				putchar('\n');
 			}
-			else {
+			else
+			{
 				putchar(',');
 			}
 			putchar(' ');

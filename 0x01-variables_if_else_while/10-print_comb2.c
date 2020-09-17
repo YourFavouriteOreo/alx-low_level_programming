@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int characterX;
-	int characterY;
+	int first;
+	int second;
 
-	for (characterX = 0; characterX <= 9; characterX++)
+	for (first = 0; first <= 9; first++)
 	{
-		for (characterY = 0; characterY <= 9; characterY++)
+		for (second = 0; second <= 9; second++)
 		{
-			putchar(characterX + '0');
-			putchar(characterY + '0');
-			if (characterX == 9 && characterY == 9)
+			putchar(first + '0');
+			putchar(second + '0');
+			if (first == 9 && second == 9)
 			{
 			break;
 			}

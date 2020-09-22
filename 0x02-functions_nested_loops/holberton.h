@@ -1,4 +1,7 @@
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 extern int _putchar(char c);
+extern int_putchar(char c);
 extern void print_alphabet(void);
 extern void print_alphabet_x10(void);
 extern int _islower(int c);
@@ -9,3 +12,5 @@ extern int print_last_digit(int);
 extern void times_table(void);
 extern int add(int, int);
 extern void print_to_98(int n);
+#endif
+

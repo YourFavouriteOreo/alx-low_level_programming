@@ -30,7 +30,10 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(multiplied_value + '0');
 			}
-			_putchar(',');
+			if (x != 9 )
+			{
+				_putchar(',');
+			}
 		}
 		_putchar('\n');
 	}

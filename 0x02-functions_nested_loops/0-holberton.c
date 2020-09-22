@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "string.h"
 /**
  * main - check the code for Holberton School students.
  *
@@ -8,10 +7,10 @@
 
 int main(void)
 {
-	char holberton[] = "Holberton";
-	unsigned long int i;
+	char holberton[9] = "Holberton";
+	int i;
 
-	for (i = 0; i < strlen(holberton); i++)
+	for (i = 0; i < holberton; i++)
 	{
 		_putchar(holberton[i]);
 	}

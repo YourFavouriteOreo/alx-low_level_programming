@@ -15,7 +15,6 @@ int main(void)
 	{
 		_putchar(holberton[i]);
 	}
-	print_alphabet();
 	_putchar('\n');
 	return (0);
 }

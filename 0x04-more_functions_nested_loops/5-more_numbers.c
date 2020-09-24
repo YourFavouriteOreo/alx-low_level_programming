@@ -11,10 +11,9 @@ void more_numbers(void)
 	int i;
 	int iterations;
 
-	i = 0;
-
 	for (iterations = 0; iterations < 10; iterations++)
 	{
+		i = 0;
 		while (i <= 14)
 		{
 			if (i >= 10)

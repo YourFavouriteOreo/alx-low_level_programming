@@ -35,5 +35,9 @@ int main(void)
 		{
 			putchar(' ');
 		}
+		else
+		{
+			putchar('\n');
+		}
 	}
 }

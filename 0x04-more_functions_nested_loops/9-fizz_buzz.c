@@ -2,39 +2,40 @@
 #include <stdio.h>
 
 /**
- * main - Print 1 to 100 replacing multiples of 3 & 5 with fizz & buzz
- * Return: Void.
+ * main - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
+ *
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	int i = 0;
+	int count = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (count < 101)
 	{
-		if (i % 3 == 0)
+		if (count % 3 == 0 && count % 5 == 0)
 		{
-			if (i % 5 == 0)
-			{
-				printf("%s", "FizzBuzz");
-			}
-			else
-			{
-				printf("%s", "Fizz");
-			}
+			printf("%s", "FizzBuzz");
 		}
-
-		else if (i % 5 == 0)
+		else if (count % 3 == 0)
+		{
+			printf("%s", "Fizz");
+		}
+		else if (count % 5 == 0)
 		{
 			printf("%s", "Buzz");
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%d", count);
 		}
-		if (i != 100)
+
+		if (count != 100)
 		{
-			putchar(' ');
+		printf(" ");
 		}
+		count++;
 	}
-	putchar('\n');
+	printf("\n");
+	return (0);
 }

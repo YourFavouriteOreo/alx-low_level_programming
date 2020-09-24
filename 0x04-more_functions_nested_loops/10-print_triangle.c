@@ -15,10 +15,10 @@ void print_triangle(int size)
 	{
 		for (spaces = size - i; spaces > 0; spaces--)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
-		putchar('#');
-		putchar('\n');
+		_putchar('#');
+		_putchar('\n');
 	}
-	putchar('\n');
+	_putchar('\n');
 }

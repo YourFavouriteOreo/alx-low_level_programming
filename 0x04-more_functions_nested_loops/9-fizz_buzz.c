@@ -15,21 +15,25 @@ int main(void)
 		{
 			if (i % 5 == 0)
 			{
-				printf("%s ", "FizzBuzz");
+				printf("%s", "FizzBuzz");
 			}
 			else
 			{
-				printf("%s ", "Fizz");
+				printf("%s", "Fizz");
 			}
 		}
 
 		else if (i % 5 == 0)
 		{
-			printf("%s ", "Buzz");
+			printf("%s", "Buzz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
+		}
+		if (i != 100)
+		{
+			putchar(' ');
 		}
 	}
 }

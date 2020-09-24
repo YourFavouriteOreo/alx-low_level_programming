@@ -11,7 +11,6 @@ void print_diagonal(int n)
 	int i;
 	int spaces;
 
-	_putchar('\n');
 	for (i = 0; i < n; i++)
 	{
 		for (spaces = 0; spaces < i; spaces++)
@@ -21,5 +20,9 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-	_putchar('\n');
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }

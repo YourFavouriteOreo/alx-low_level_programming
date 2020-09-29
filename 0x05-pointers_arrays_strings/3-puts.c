@@ -2,8 +2,8 @@
 #include "stdio.h"
 
 /**
- * _strlen - Count the length of a string
- * @s: String whose value is to be counted
+ * _puts - Print entire string
+ * @str: String to be printed
  * Return: Always 0.
  */
 void _puts(char *str)
